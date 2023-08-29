@@ -1,4 +1,4 @@
-import {useState} from "react"
+import {useLayoutEffect, useState} from "react"
 
 export const Form = () => {
     const [name, setName]= useState("")
@@ -47,7 +47,9 @@ export const Form = () => {
         console.log(payload)
     }
 
-
+    useLayoutEffect( () => {
+        console.log('USE LAYOUT EFFECT')
+    }, [])
 
 
     return (
