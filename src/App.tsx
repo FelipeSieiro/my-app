@@ -1,9 +1,10 @@
-import { Button } from "./components/Button/Button"
-import { Card } from "./components/Card/Card"
-import { Counter } from "./components/Counter/Counter"
-import { Form } from "./components/Form/Form"
-import { Header } from "./components/Header/Header"
-
+// import { Button } from "./components/Button/Button"
+// import { Card } from "./components/Card/Card"
+// import { Counter } from "./components/Counter/Counter"
+// import { Form } from "./components/Form/Form"
+// import { Header } from "./components/Header/Header"
+// import { AddressForm } from "./components/AddressForm/AddressForm"
+import { Address } from "./Pages/Address/Address"
 
 function App() {
 const user = {
@@ -29,7 +30,8 @@ const products = [
         </Card>
       ))}
       <Counter start ={100} step ={100}/> */}
-      <Form />
+      {/* <Form /> */}
+      <Address />
     </>
   )
 }
